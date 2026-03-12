@@ -36,6 +36,8 @@ Expected layout (can be changed if you update paths in the notebooks):
 
 The age and emotion notebooks follow the same loading and preprocessing pattern but map labels to their own targets.
 
+When run in Google Colab, the notebooks mount Google Drive with `drive.mount('/content/drive')` and read the dataset from Drive paths; if you move the data to a different Drive folder or run locally, update the dataset paths in the first few cells of each notebook.
+
 ---
 
 ## Models
